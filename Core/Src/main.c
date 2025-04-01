@@ -102,9 +102,7 @@ int main(void)
 	  HAL_ADC_PollForConversion(&hadc1,1000);
 	  sensorValue = HAL_ADC_GetValue(&hadc1);
 	  sensorVoltage = (sensorValue/4095)*5.0;
-
-
-	   	  HAL_Delay(1000);
+          HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
