@@ -1,5 +1,8 @@
 # STM32F407 + GUVA-S12SD Sunlight Sensor Interface
 
+![image](https://github.com/user-attachments/assets/57ed4804-737e-4812-851b-e616ca5f7809)
+
+
 This project demonstrates how to interface the GUVA-S12SD sunlight sensor with the STM32F407 microcontroller to measure the intensity of sunlight. The analog output of the sensor is connected to the ADC channel 4 of the STM32F407. As sunlight falls on the sensor, the sensor generates a voltage that is proportional to the intensity of light. This voltage is read by the STM32F407's ADC (Analog-to-Digital Converter) and displayed in the CubeIDE terminal for monitoring.
 
 # Project Overview:
